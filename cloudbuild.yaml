@@ -1,0 +1,14 @@
+steps:
+    - name: node:12.16.0
+      entrypoint: npm
+      args: [ 'install' ]
+
+    - name: node:12.16.0
+      entrypoint: npm
+      args: [ 'build' ]
+
+    - name: node:12.16.0
+      entrypoint: npm
+      args: [ 'deploy' ]
+
+      
