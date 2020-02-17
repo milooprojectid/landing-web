@@ -5,10 +5,10 @@ steps:
 
     - name: node:12.16.0
       entrypoint: npm
-      args: [ 'run build' ]
+      args: [ 'run', 'build' ]
 
     - name: node:12.16.0
       entrypoint: npm
-      args: [ 'run deploy' ]
+      args: [ 'run', 'deploy' ]
 
       
