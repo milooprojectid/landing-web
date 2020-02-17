@@ -8,4 +8,5 @@ steps:
       args: [ 'run', 'build' ]
 
     - name: 'devillex/docker-firebase'
+      entrypoint: firebase
       args: [ 'deploy', '--only', 'hosting:miloo-phoenix']
