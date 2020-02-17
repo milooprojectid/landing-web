@@ -12,4 +12,4 @@ steps:
       args: [ 'run', 'build-static' ]
 
     - name: 'asia.gcr.io/miloo-phoenix/firebase'
-      args: [ 'deploy', '--only', 'hosting:miloo-phoenix']
+      args: [ 'deploy', '--only', 'hosting:miloo-phoenix', '--token', '1//0gFEgm53ZstYYCgYIARAAGBASNwF-L9IrohrFCTPItGKyCHwWE0TzOqD11h64J-fwdfVua61PmeA0wi1nZ4KjXPStuNhoAhrKebw']
