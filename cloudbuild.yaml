@@ -5,7 +5,7 @@ steps:
 
     - name: node:12.16.0
       entrypoint: npm
-      args: [ 'run', 'build' ]
+      args: [ 'run', 'build-static' ]
 
     - name: 'asia.gcr.io/miloo-phoenix/firebase'
       args: [ 'deploy', '--only', 'hosting:miloo-phoenix']
