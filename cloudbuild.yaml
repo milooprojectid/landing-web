@@ -7,5 +7,5 @@ steps:
       entrypoint: npm
       args: [ 'run', 'build' ]
 
-    - name: 'devillex/docker-firebase'
-      args: [ 'firebase', 'deploy', '--only', 'hosting:miloo-phoenix']
+    - name: 'archisdi/firebase'
+      args: [ 'deploy', '--only', 'hosting:miloo-phoenix']
