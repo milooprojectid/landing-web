@@ -7,8 +7,5 @@ steps:
       entrypoint: npm
       args: [ 'run', 'build' ]
 
-    - name: node:12.16.0
-      entrypoint: npm
-      args: [ 'run', 'deploy' ]
-
-      
+    - name: 'devillex/docker-firebase'
+      args: [ 'deploy', '--only', 'hosting:miloo-phoenix']
